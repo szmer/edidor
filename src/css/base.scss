@@ -416,6 +416,16 @@ a.terms-title,
     font-size: 0.81rem;
 }
 
-.content p {
+article p {
    text-align: justify
+}
+
+figure {
+   text-align: center;
+}
+figcaption, figcaption > p {
+   text-align: center;
+   font-size: small;
+   font-weight: lighter;
+   font-style: italic;
 }
