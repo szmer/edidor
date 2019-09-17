@@ -1,16 +1,16 @@
 <div class="intro">
-    {{ if (fileExists "static/images/logo_light.svg") }}
+    {{ if (fileExists "static/images/logo_light.png") }}
     <a href="{{ .Site.BaseURL }}" class="btn logo-container logo-light">
-        <img class="logo" src="{{ "images/logo_light.svg" | absURL }}" alt="logo" />
+        <img class="logo" src="{{ "images/logo_light.png" | absURL }}" alt="logo" />
     </a>
     {{ end }}
-    {{ if (fileExists "static/images/logo_wild.svg") }}
+    {{ if (fileExists "static/images/logo_wild.png") }}
     <a href="{{ .Site.BaseURL }}" class="btn logo-container logo-wild">
-        <img class="logo" src="{{ "images/logo_wild.svg" | absURL }}" alt="logo" />
+        <img class="logo" src="{{ "images/logo_wild.png" | absURL }}" alt="logo" />
     </a>
     {{ end }}
     <a href="{{ .Site.BaseURL }}" class="btn logo-container logo-default">
-        <img class="logo" src="{{ "images/logo.svg" | absURL }}" alt="logo" />
+        <img class="logo" src="{{ "images/logo.png" | absURL }}" alt="logo" />
     </a>
     <h2>
         {{ with .Param "title" }}
