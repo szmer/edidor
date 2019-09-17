@@ -13,8 +13,8 @@ body {
 
 img {
     height   : auto;
-    width    : 100%;
-    max-width: 40vw;
+    max-width: 70vw;
+    max-height: 70vh;
 }
 
 .clearfix::after {
@@ -173,6 +173,7 @@ body.loaded {
 
 .intro img.logo {
     display: inline;
+    max-width: 50vw;
 }
 
 .header ul ul {
@@ -361,11 +362,6 @@ code {
 }
 
 
-
-.main p a {
-    margin: 0 0.3rem;
-}
-
 .title a,
 .article-meta a,
 .list a,
@@ -428,4 +424,8 @@ figcaption, figcaption > p {
    font-size: small;
    font-weight: lighter;
    font-style: italic;
+}
+
+blockquote {
+   font-family: serif;
 }
