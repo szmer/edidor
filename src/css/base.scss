@@ -6,7 +6,6 @@ html {
 
 body {
     margin     : 0;
-    word-break : break-all;
     box-sizing : border-box;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
     overflow: hidden;
@@ -415,4 +414,8 @@ a.terms-title,
 .sidebar a,
 .taxonomy-key {
     font-size: 0.81rem;
+}
+
+.content p {
+   text-align: justify
 }
