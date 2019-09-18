@@ -21,7 +21,9 @@
     </h2>
     <p>
         {{ with .Param "introText" }}
-        {{ . | safeHTML }}
+        {{ . }}
+        {{ else }}
+        {{ .Site.Params.description }}
         {{ end }}
     </p>
 </div>
