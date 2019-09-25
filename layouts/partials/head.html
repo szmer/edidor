@@ -9,7 +9,7 @@
     <!-- Permalink & RSSlink -->
     <link rel="canonical" href="{{ .Permalink }}" />
     <meta name="description" content="{{ .Site.Params.Description }}">
-    <meta name="author" content="{{ .Site.AuthorName }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
     {{ range .AlternativeOutputFormats }}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
     {{ end }}

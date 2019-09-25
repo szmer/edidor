@@ -1,6 +1,5 @@
 <footer class="footer clearfix">
     <ul class="control social clearfix">
-        <li><a class="author btn" href="#">{{ .Site.Params.Author }}</a></li>
         {{ range $key, $val := .Site.Social }}
         {{ if $val }}
         <li>
