@@ -204,27 +204,22 @@ body.loaded {
     overflow-y: auto;
 }
 
-
 .sidebar a {
-    overflow     : hidden;
-    text-overflow: ellipsis;
-    white-space  : nowrap;
+   line-height: 1.1;
 }
 
 .sidebar a,
 .taxonomy-key {
     display: block;
+    padding    : 0 2vw;
+}
+
+.taxonomy-key {
+    line-height: 2;
 }
 
 .sidebar ul {
     margin-top: 1rem;
-}
-
-.sidebar a,
-.taxonomy-key {
-    display    : block;
-    line-height: 2;
-    padding    : 0 2vw;
 }
 
 .logo-link {
